@@ -39,7 +39,7 @@ def app():
         <br><br>
         <hr>
         <p style='text-align: center; color: grey;'>
-        Check out the source code on <a href='https://github.com/obeedgarza1/Tasty-Routes-App' target='_blank'>GitHub</a>.
+        Check out the source code on <a href='https://github.com/obeedgarza1/Tasty-Trails' target='_blank'>GitHub</a>.
         </p>
         """,
         unsafe_allow_html=True

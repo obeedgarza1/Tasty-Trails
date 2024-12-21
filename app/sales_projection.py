@@ -26,12 +26,8 @@ if not os.path.exists(local_file_path):
 selected_columns = ['TRUCK_BRAND_NAME', 'MENU_TYPE', 'PRICE', 'CITY', 'ITEM_CATEGORY', 'ITEM_SUBCATEGORY', 'ORDER_TOTAL', 'ORDER_TS']
 
 spark = SparkSession.builder \
-    .appName('Truck_Data') \
-    .config("spark.master", "local[4]") \
-    .config("spark.driver.memory", "4g") \
-    .config("spark.executor.memory", "4g") \
-    .config("spark.executor.cores", "2") \
-    .config("spark.sql.shuffle.partitions", "8") \
+    .appName('tasty-trails') \
+    .config("spark.master", "local[*]") \
     .getOrCreate()
 
 def load_sample_data(source_file, selected_columns):

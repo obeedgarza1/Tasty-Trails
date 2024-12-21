@@ -1,6 +1,6 @@
 FROM python:3.11-slim-bullseye
 
-WORKDIR /app
+WORKDIR /tasty-trails
 
 RUN apt-get update && apt-get install -y \
     openjdk-11-jdk \
@@ -20,10 +20,13 @@ RUN wget https://archive.apache.org/dist/spark/spark-3.4.0/spark-3.4.0-bin-hadoo
 ENV SPARK_HOME=/opt/spark
 ENV PATH=$SPARK_HOME/bin:$PATH
 
-COPY . /app
+# Copy the app folder and requirements.txt into the container
+COPY app /tasty-trails/app
+COPY requirements.txt /tasty-trails/requirements.txt
 
-RUN pip install --no-cache-dir -r requirements.txt
+# Install dependencies from requirements.txt
+RUN pip install --no-cache-dir -r /tasty-trails/requirements.txt
 
 EXPOSE 8000
 
-CMD ["python3", "-m", "streamlit", "run", "app/main.py", "--server.port=8000", "--server.address=0.0.0.0"]
+CMD ["python3", "-m", "streamlit", "run", "/tasty-trails/app/main.py", "--server.port=8000", "--server.address=0.0.0.0"]

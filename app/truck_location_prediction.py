@@ -28,7 +28,7 @@ if not os.path.exists(local_file_path):
         file.write(blob_client.download_blob().readall())
 
 spark = SparkSession.builder \
-    .appName('Truck_Data') \
+    .appName('tasty-trails') \
     .config("spark.master", "local[*]") \
     .getOrCreate()
 
