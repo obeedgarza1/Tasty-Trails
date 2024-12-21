@@ -80,6 +80,8 @@ def load_data(source_file, selected_columns, truck_brand, city, category):
         df_spark = df_spark.filter(F.col('CITY').isin(city))
     if 'All' not in category:
         df_spark = df_spark.filter(F.col('ITEM_CATEGORY').isin(category))
+    
+    df_spark = df_spark.repartition(2, "CITY")
 
     return df_spark
 

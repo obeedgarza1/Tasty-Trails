@@ -92,7 +92,9 @@ def load_data(source_file, selected_columns, menu_type, city, selected_category)
 
 
     if "All" not in selected_category:  
-        df_spark = df_spark.filter(F.col('ITEM_CATEGORY').isin(selected_category))  
+        df_spark = df_spark.filter(F.col('ITEM_CATEGORY').isin(selected_category))
+
+    df_spark = df_spark.repartition(14, "MENU_TYPE")
     
     return df_spark
 

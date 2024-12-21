@@ -2,7 +2,7 @@ import streamlit as st
 
 def app():
     col1, col2, col3 = st.columns([1,4,1])
-    col2.markdown("<h1 style='text-align: center; color: #4A90E2;'>🌮 - Welcome to the Tasty Routes App - 🚐</h1>", unsafe_allow_html=True)
+    col2.markdown("<h1 style='text-align: center; color: #4A90E2;'>🌮 - Welcome to the Tasty Trais App - 🚐</h1>", unsafe_allow_html=True)
     
     col2.markdown("""
         <h3 style='text-align: center; color: #333;'>Track sales, find trends and optimal locations, and fuel your food truck success!.</h3>
@@ -13,7 +13,7 @@ def app():
     col2.subheader("🍟 About This App")
     col2.write(
         """
-        Truck Analysis App is designed to help franchise owners to monitor sales data of Tasty Bites, forecast trends, and identify 
+        Tasty Trais App is designed to help franchise owners to monitor sales data of Tasty Bites, forecast trends, and identify 
         potential new locations for their trucks. Our goal is to make data-driven decisions easier and 
         more accessible for everyone in the industry.
         """
