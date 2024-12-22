@@ -2,15 +2,14 @@ import streamlit as st
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, hour
 import pandas as pd
-from pyspark.sql import SparkSession
-from pyspark.sql import functions as F
+from pyspark.sql import SparkSession, functions as F
 import plotly.graph_objects as go
 from prophet import Prophet
 import plotly.express as px
 from azure.storage.blob import BlobServiceClient
 import os
 
-local_file_path = "truck_data.parquet"
+local_file_path = 'tasty_data.parquet'
 
 if not os.path.exists(local_file_path):
     connection_string =  os.getenv('AZURE_CONNECTION_STRING')

@@ -14,7 +14,7 @@ import duckdb
 from azure.storage.blob import BlobServiceClient
 import os
 
-local_file_path = "truck_data.parquet"
+local_file_path = 'tasty_data.parquet'
 
 if not os.path.exists(local_file_path):
     connection_string =  os.getenv('AZURE_CONNECTION_STRING')
