@@ -17,3 +17,6 @@ The **Tasty Trails App** is designed to help food truck owners and franchise ope
 1. **Explore Sales Projections**: Dive into your sales data to forecast trends and make smarter business decisions.
 2. **Discover Hot Spots**: Use the location prediction feature to uncover the best areas for setting up your food truck.
 3. **Filter by Preferences**: Customize your search to see exactly what’s most relevant to your business.
+
+
+![App Screenshot](/home.png)
