@@ -17,7 +17,7 @@ Displays sales data trends, historical performance and get insights into menu ty
 ### 3. **Hot Spot Prediction**  
 Use location predictions to identify and target high-demand areas to strategically position your food trucks.
 
-![Hot Spot Prediction](truck_location_prediction.png)
+![Hot Spot Predictions](truck_locations.png)
 
 ---
 
