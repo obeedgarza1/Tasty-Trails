@@ -2,21 +2,25 @@
 
 Track sales, find trends and optimal locations, and fuel your food truck success!
 
-1. **Explore Sales Projections**  
-   Uncover trends in your sales data to make smarter, data-backed business decisions.
+## 🖼️ App Screenshots
 
-   ![Sales Projections](sales_projections.png)
+### 1. **Home Page**  
+The welcoming screen introduces the app and its key features in a user-friendly layout. It provides a quick overview of what the app offers.  
 
-2. **Discover Hot Spots**  
-   Use location predictions to identify and target high-demand areas for your trucks.
+![Home Page](home.png)
 
-   ![Hot Spot Prediction](truck_location_prediction.png)
+### 2. **Sales Projections**  
+Displays sales data trends, historical performance and get insights into menu types to make smarter, data-backed business decisions.
 
-3. **Filter by Preferences**  
-   Customize filters to dive deep into specific metrics and unlock actionable insights.
+![Sales Projections](sales_projections.png)
 
-   ![Home Page](home.png)
+### 3. **Hot Spot Prediction**  
+Use location predictions to identify and target high-demand areas to strategically position your food trucks.
+
+![Hot Spot Prediction](truck_location_prediction.png)
 
 ---
 
-Start optimizing your food truck journey today with the **Tasty Trails App**!
+## 🚀 Get Started
+
+Let’s make your food truck journey successful with **Tasty Trails App**!
