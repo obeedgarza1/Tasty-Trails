@@ -20,3 +20,7 @@ The **Tasty Trails App** is designed to help food truck owners and franchise ope
 
 
 ![App Screenshot](/home.png)
+
+![App Screenshot](/sales_projections.png)
+
+![App Screenshot](/truck_location_prediction.png)
